@@ -16,5 +16,16 @@ namespace WindowsFormsApp1_PRG282_Project
         {
             InitializeComponent();
         }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void dvgHeroes_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
+
     }
 }
