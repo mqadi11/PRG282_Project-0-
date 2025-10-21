@@ -32,7 +32,7 @@
             tableLayoutPanel1 = new TableLayoutPanel();
             groupBox1 = new GroupBox();
             flowLayoutPanel1 = new FlowLayoutPanel();
-            button1 = new Button();
+            btnClear = new Button();
             deletebtn = new Button();
             updatebtn = new Button();
             btnAdd = new Button();
@@ -49,9 +49,9 @@
             txtAge = new NumericUpDown();
             txtScore = new NumericUpDown();
             txtName = new TextBox();
-            dataGridView2 = new DataGridView();
+            dgvRank = new DataGridView();
             colRank = new DataGridViewTextBoxColumn();
-            dataGridView3 = new DataGridView();
+            dgvThreat = new DataGridView();
             colThreatLevel = new DataGridViewTextBoxColumn();
             groupBox2 = new GroupBox();
             tableLayoutPanel3 = new TableLayoutPanel();
@@ -76,8 +76,8 @@
             tableLayoutPanel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)txtAge).BeginInit();
             ((System.ComponentModel.ISupportInitialize)txtScore).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)dataGridView2).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)dataGridView3).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)dgvRank).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)dgvThreat).BeginInit();
             groupBox2.SuspendLayout();
             tableLayoutPanel3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
@@ -117,7 +117,7 @@
             // 
             flowLayoutPanel1.AutoSize = true;
             flowLayoutPanel1.AutoSizeMode = AutoSizeMode.GrowAndShrink;
-            flowLayoutPanel1.Controls.Add(button1);
+            flowLayoutPanel1.Controls.Add(btnClear);
             flowLayoutPanel1.Controls.Add(deletebtn);
             flowLayoutPanel1.Controls.Add(updatebtn);
             flowLayoutPanel1.Controls.Add(btnAdd);
@@ -130,16 +130,17 @@
             flowLayoutPanel1.TabIndex = 1;
             flowLayoutPanel1.WrapContents = false;
             // 
-            // button1
+            // btnClear
             // 
-            button1.AutoSize = true;
-            button1.Location = new Point(261, 13);
-            button1.Margin = new Padding(5);
-            button1.Name = "button1";
-            button1.Size = new Size(75, 81);
-            button1.TabIndex = 3;
-            button1.Text = "Clear";
-            button1.UseVisualStyleBackColor = true;
+            btnClear.AutoSize = true;
+            btnClear.Location = new Point(261, 13);
+            btnClear.Margin = new Padding(5);
+            btnClear.Name = "btnClear";
+            btnClear.Size = new Size(75, 81);
+            btnClear.TabIndex = 3;
+            btnClear.Text = "Clear";
+            btnClear.UseVisualStyleBackColor = true;
+            btnClear.Click += btnClear_Click;
             // 
             // deletebtn
             // 
@@ -194,8 +195,8 @@
             tableLayoutPanel2.Controls.Add(txtAge, 1, 2);
             tableLayoutPanel2.Controls.Add(txtScore, 1, 4);
             tableLayoutPanel2.Controls.Add(txtName, 1, 1);
-            tableLayoutPanel2.Controls.Add(dataGridView2, 1, 5);
-            tableLayoutPanel2.Controls.Add(dataGridView3, 1, 6);
+            tableLayoutPanel2.Controls.Add(dgvRank, 1, 5);
+            tableLayoutPanel2.Controls.Add(dgvThreat, 1, 6);
             tableLayoutPanel2.Dock = DockStyle.Top;
             tableLayoutPanel2.Location = new Point(3, 21);
             tableLayoutPanel2.Name = "tableLayoutPanel2";
@@ -324,14 +325,14 @@
             txtName.Size = new Size(187, 25);
             txtName.TabIndex = 1;
             // 
-            // dataGridView2
+            // dgvRank
             // 
-            dataGridView2.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridView2.Columns.AddRange(new DataGridViewColumn[] { colRank });
-            dataGridView2.Location = new Point(141, 303);
-            dataGridView2.Name = "dataGridView2";
-            dataGridView2.Size = new Size(187, 48);
-            dataGridView2.TabIndex = 7;
+            dgvRank.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dgvRank.Columns.AddRange(new DataGridViewColumn[] { colRank });
+            dgvRank.Location = new Point(141, 303);
+            dgvRank.Name = "dgvRank";
+            dgvRank.Size = new Size(187, 48);
+            dgvRank.TabIndex = 7;
             // 
             // colRank
             // 
@@ -340,14 +341,14 @@
             colRank.Name = "colRank";
             colRank.ReadOnly = true;
             // 
-            // dataGridView3
+            // dgvThreat
             // 
-            dataGridView3.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridView3.Columns.AddRange(new DataGridViewColumn[] { colThreatLevel });
-            dataGridView3.Location = new Point(141, 361);
-            dataGridView3.Name = "dataGridView3";
-            dataGridView3.Size = new Size(187, 49);
-            dataGridView3.TabIndex = 8;
+            dgvThreat.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dgvThreat.Columns.AddRange(new DataGridViewColumn[] { colThreatLevel });
+            dgvThreat.Location = new Point(141, 361);
+            dgvThreat.Name = "dgvThreat";
+            dgvThreat.Size = new Size(187, 49);
+            dgvThreat.TabIndex = 8;
             // 
             // colThreatLevel
             // 
@@ -532,8 +533,8 @@
             tableLayoutPanel2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)txtAge).EndInit();
             ((System.ComponentModel.ISupportInitialize)txtScore).EndInit();
-            ((System.ComponentModel.ISupportInitialize)dataGridView2).EndInit();
-            ((System.ComponentModel.ISupportInitialize)dataGridView3).EndInit();
+            ((System.ComponentModel.ISupportInitialize)dgvRank).EndInit();
+            ((System.ComponentModel.ISupportInitialize)dgvThreat).EndInit();
             groupBox2.ResumeLayout(false);
             tableLayoutPanel3.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
@@ -561,7 +562,7 @@
         private System.Windows.Forms.NumericUpDown txtScore;
         private System.Windows.Forms.ContextMenuStrip contextMenuStrip1;
         private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel1;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btnClear;
         private System.Windows.Forms.Button deletebtn;
         private System.Windows.Forms.Button updatebtn;
         private System.Windows.Forms.Button btnAdd;
@@ -581,9 +582,9 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn colTotalHeros;
         private System.Windows.Forms.DataGridViewTextBoxColumn colAveAge;
         private System.Windows.Forms.DataGridViewTextBoxColumn colAveScore;
-        private System.Windows.Forms.DataGridView dataGridView2;
+        private System.Windows.Forms.DataGridView dgvRank;
         private System.Windows.Forms.DataGridViewTextBoxColumn colRank;
-        private System.Windows.Forms.DataGridView dataGridView3;
+        private System.Windows.Forms.DataGridView dgvThreat;
         private System.Windows.Forms.DataGridViewTextBoxColumn colThreatLevel;
     }
 }

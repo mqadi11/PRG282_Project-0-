@@ -3,6 +3,7 @@ using System.Windows.Forms;
 using System.Xml.Linq;
 using WindowsFormsApp1_PRG282_Project.BusinessLayer;
 using WindowsFormsApp1_PRG282_Project.DataLayer;
+using static System.Windows.Forms.LinkLabel;
 
 namespace WindowsFormsApp1_PRG282_Project
 {
@@ -101,6 +102,29 @@ namespace WindowsFormsApp1_PRG282_Project
                 txtPower.Text = row.Cells[3].Value.ToString();
                 txtScore.Text = row.Cells[4].Value.ToString();
             }
+
+            // Get hero ID to find in text file
+            string selectedId = txtHeroID.Text;
+
+            // Read all lines from the file
+            var lines = Filehandler.ReadAllHeroes();
+
+            // Loop through each line to find matching hero
+            foreach (var line in lines)
+            {
+                string[] parts = line.Split(',');
+                if (parts.Length < 7) continue; // skip invalid lines
+
+                if (parts[0] == selectedId)
+                {
+                    // Found the hero and display rank and threat
+                    dgvRank.Rows.Clear();
+                    dgvThreat.Rows.Clear();
+                    dgvRank.Rows.Add(parts[5]);
+                    dgvThreat.Rows.Add(parts[6]);
+                    break;
+                }
+            }
         }
 
         private void LoadData()
@@ -114,21 +138,31 @@ namespace WindowsFormsApp1_PRG282_Project
                 dgvHero.Rows.Add(parts);
             }
         }
-
+        private void ClearInputs()
+        {
+            txtHeroID.Clear();
+            txtName.Clear();
+            txtAge.Value = 0;
+            txtPower.Clear();
+            txtScore.Value = 0;
+            dgvRank.Rows.Clear();
+            dgvThreat.Rows.Clear();
+        }
         private void button6_Click(object sender, EventArgs e)
         {
             LoadData();
+            ClearInputs();
         }
 
         private void btnAdd_Click(object sender, EventArgs e)
         {
-            // Example: get data from textboxes in your form
+            // get data from textboxes in the form
             string id = txtHeroID.Text;
             string name = txtName.Text;
             int age = int.TryParse(txtAge.Text, out int a) ? a : 0;
             string power = txtPower.Text;
             int score = int.TryParse(txtScore.Text, out int s) ? s : 0;
-            
+
 
             // Add hero
             Filehandler.AddHero(id, name, age, power, score);
@@ -136,7 +170,13 @@ namespace WindowsFormsApp1_PRG282_Project
             // Refresh DataGridView
             LoadData();
 
+
             MessageBox.Show("Hero added successfully!");
+        }
+
+        private void btnClear_Click(object sender, EventArgs e)
+        {
+            ClearInputs();
         }
     }
 }
