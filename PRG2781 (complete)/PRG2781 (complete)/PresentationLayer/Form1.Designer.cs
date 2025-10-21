@@ -28,526 +28,517 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
-            this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
-            this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
-            this.button1 = new System.Windows.Forms.Button();
-            this.deletebtn = new System.Windows.Forms.Button();
-            this.updatebtn = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
-            this.tableLayoutPanel2 = new System.Windows.Forms.TableLayoutPanel();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
-            this.txtHeroID = new System.Windows.Forms.TextBox();
-            this.txtPower = new System.Windows.Forms.TextBox();
-            this.txtAge = new System.Windows.Forms.NumericUpDown();
-            this.txtScore = new System.Windows.Forms.NumericUpDown();
-            this.txtName = new System.Windows.Forms.TextBox();
-            this.dataGridView2 = new System.Windows.Forms.DataGridView();
-            this.colRank = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridView3 = new System.Windows.Forms.DataGridView();
-            this.colThreatLevel = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.tableLayoutPanel3 = new System.Windows.Forms.TableLayoutPanel();
-            this.searchbtn = new System.Windows.Forms.Button();
-            this.button6 = new System.Windows.Forms.Button();
-            this.button7 = new System.Windows.Forms.Button();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.colTotalHeros = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.colAveAge = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.colAveScore = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dgvHero = new System.Windows.Forms.DataGridView();
-            this.colID = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.colName = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.colAge = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.colPower = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.colScore = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.colThreat = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
-            this.tableLayoutPanel1.SuspendLayout();
-            this.groupBox1.SuspendLayout();
-            this.flowLayoutPanel1.SuspendLayout();
-            this.tableLayoutPanel2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.txtAge)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.txtScore)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView3)).BeginInit();
-            this.groupBox2.SuspendLayout();
-            this.tableLayoutPanel3.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dgvHero)).BeginInit();
-            this.SuspendLayout();
+            components = new System.ComponentModel.Container();
+            tableLayoutPanel1 = new TableLayoutPanel();
+            groupBox1 = new GroupBox();
+            flowLayoutPanel1 = new FlowLayoutPanel();
+            button1 = new Button();
+            deletebtn = new Button();
+            updatebtn = new Button();
+            btnAdd = new Button();
+            tableLayoutPanel2 = new TableLayoutPanel();
+            label1 = new Label();
+            label2 = new Label();
+            label3 = new Label();
+            label4 = new Label();
+            label5 = new Label();
+            label6 = new Label();
+            label7 = new Label();
+            txtHeroID = new TextBox();
+            txtPower = new TextBox();
+            txtAge = new NumericUpDown();
+            txtScore = new NumericUpDown();
+            txtName = new TextBox();
+            dataGridView2 = new DataGridView();
+            colRank = new DataGridViewTextBoxColumn();
+            dataGridView3 = new DataGridView();
+            colThreatLevel = new DataGridViewTextBoxColumn();
+            groupBox2 = new GroupBox();
+            tableLayoutPanel3 = new TableLayoutPanel();
+            searchbtn = new Button();
+            btnRefresh = new Button();
+            button7 = new Button();
+            dataGridView1 = new DataGridView();
+            colTotalHeros = new DataGridViewTextBoxColumn();
+            colAveAge = new DataGridViewTextBoxColumn();
+            colAveScore = new DataGridViewTextBoxColumn();
+            dgvHero = new DataGridView();
+            colID = new DataGridViewTextBoxColumn();
+            colName = new DataGridViewTextBoxColumn();
+            colAge = new DataGridViewTextBoxColumn();
+            colPower = new DataGridViewTextBoxColumn();
+            colScore = new DataGridViewTextBoxColumn();
+            colThreat = new DataGridViewTextBoxColumn();
+            contextMenuStrip1 = new ContextMenuStrip(components);
+            tableLayoutPanel1.SuspendLayout();
+            groupBox1.SuspendLayout();
+            flowLayoutPanel1.SuspendLayout();
+            tableLayoutPanel2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)txtAge).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)txtScore).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)dataGridView2).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)dataGridView3).BeginInit();
+            groupBox2.SuspendLayout();
+            tableLayoutPanel3.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)dgvHero).BeginInit();
+            SuspendLayout();
             // 
             // tableLayoutPanel1
             // 
-            this.tableLayoutPanel1.ColumnCount = 2;
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 40F));
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 60F));
-            this.tableLayoutPanel1.Controls.Add(this.groupBox1, 0, 0);
-            this.tableLayoutPanel1.Controls.Add(this.groupBox2, 1, 0);
-            this.tableLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tableLayoutPanel1.Location = new System.Drawing.Point(0, 0);
-            this.tableLayoutPanel1.Name = "tableLayoutPanel1";
-            this.tableLayoutPanel1.RowCount = 1;
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 561F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 561F));
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(884, 561);
-            this.tableLayoutPanel1.TabIndex = 0;
+            tableLayoutPanel1.ColumnCount = 2;
+            tableLayoutPanel1.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 40F));
+            tableLayoutPanel1.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 60F));
+            tableLayoutPanel1.Controls.Add(groupBox1, 0, 0);
+            tableLayoutPanel1.Controls.Add(groupBox2, 1, 0);
+            tableLayoutPanel1.Dock = DockStyle.Fill;
+            tableLayoutPanel1.Location = new Point(0, 0);
+            tableLayoutPanel1.Name = "tableLayoutPanel1";
+            tableLayoutPanel1.RowCount = 1;
+            tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Percent, 100F));
+            tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Absolute, 561F));
+            tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Absolute, 561F));
+            tableLayoutPanel1.Size = new Size(884, 561);
+            tableLayoutPanel1.TabIndex = 0;
             // 
             // groupBox1
             // 
-            this.groupBox1.Controls.Add(this.flowLayoutPanel1);
-            this.groupBox1.Controls.Add(this.tableLayoutPanel2);
-            this.groupBox1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.groupBox1.Location = new System.Drawing.Point(3, 3);
-            this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(347, 555);
-            this.groupBox1.TabIndex = 0;
-            this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "Hero Details Capture";
+            groupBox1.Controls.Add(flowLayoutPanel1);
+            groupBox1.Controls.Add(tableLayoutPanel2);
+            groupBox1.Dock = DockStyle.Fill;
+            groupBox1.Location = new Point(3, 3);
+            groupBox1.Name = "groupBox1";
+            groupBox1.Size = new Size(347, 555);
+            groupBox1.TabIndex = 0;
+            groupBox1.TabStop = false;
+            groupBox1.Text = "Hero Details Capture";
             // 
             // flowLayoutPanel1
             // 
-            this.flowLayoutPanel1.AutoSize = true;
-            this.flowLayoutPanel1.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.flowLayoutPanel1.Controls.Add(this.button1);
-            this.flowLayoutPanel1.Controls.Add(this.deletebtn);
-            this.flowLayoutPanel1.Controls.Add(this.updatebtn);
-            this.flowLayoutPanel1.Controls.Add(this.button4);
-            this.flowLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.flowLayoutPanel1.FlowDirection = System.Windows.Forms.FlowDirection.RightToLeft;
-            this.flowLayoutPanel1.Location = new System.Drawing.Point(3, 450);
-            this.flowLayoutPanel1.Name = "flowLayoutPanel1";
-            this.flowLayoutPanel1.Padding = new System.Windows.Forms.Padding(0, 8, 0, 0);
-            this.flowLayoutPanel1.Size = new System.Drawing.Size(341, 102);
-            this.flowLayoutPanel1.TabIndex = 1;
-            this.flowLayoutPanel1.WrapContents = false;
+            flowLayoutPanel1.AutoSize = true;
+            flowLayoutPanel1.AutoSizeMode = AutoSizeMode.GrowAndShrink;
+            flowLayoutPanel1.Controls.Add(button1);
+            flowLayoutPanel1.Controls.Add(deletebtn);
+            flowLayoutPanel1.Controls.Add(updatebtn);
+            flowLayoutPanel1.Controls.Add(btnAdd);
+            flowLayoutPanel1.Dock = DockStyle.Fill;
+            flowLayoutPanel1.FlowDirection = FlowDirection.RightToLeft;
+            flowLayoutPanel1.Location = new Point(3, 450);
+            flowLayoutPanel1.Name = "flowLayoutPanel1";
+            flowLayoutPanel1.Padding = new Padding(0, 8, 0, 0);
+            flowLayoutPanel1.Size = new Size(341, 102);
+            flowLayoutPanel1.TabIndex = 1;
+            flowLayoutPanel1.WrapContents = false;
             // 
             // button1
             // 
-            this.button1.AutoSize = true;
-            this.button1.Location = new System.Drawing.Point(261, 13);
-            this.button1.Margin = new System.Windows.Forms.Padding(5);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 81);
-            this.button1.TabIndex = 3;
-            this.button1.Text = "Clear";
-            this.button1.UseVisualStyleBackColor = true;
+            button1.AutoSize = true;
+            button1.Location = new Point(261, 13);
+            button1.Margin = new Padding(5);
+            button1.Name = "button1";
+            button1.Size = new Size(75, 81);
+            button1.TabIndex = 3;
+            button1.Text = "Clear";
+            button1.UseVisualStyleBackColor = true;
             // 
             // deletebtn
             // 
-            this.deletebtn.AutoSize = true;
-            this.deletebtn.Location = new System.Drawing.Point(176, 13);
-            this.deletebtn.Margin = new System.Windows.Forms.Padding(5);
-            this.deletebtn.Name = "deletebtn";
-            this.deletebtn.Size = new System.Drawing.Size(75, 81);
-            this.deletebtn.TabIndex = 2;
-            this.deletebtn.Text = "Delete";
-            this.deletebtn.UseVisualStyleBackColor = true;
-            this.deletebtn.Click += new System.EventHandler(this.deletebtn_Click);
+            deletebtn.AutoSize = true;
+            deletebtn.Location = new Point(176, 13);
+            deletebtn.Margin = new Padding(5);
+            deletebtn.Name = "deletebtn";
+            deletebtn.Size = new Size(75, 81);
+            deletebtn.TabIndex = 2;
+            deletebtn.Text = "Delete";
+            deletebtn.UseVisualStyleBackColor = true;
+            deletebtn.Click += deletebtn_Click;
             // 
             // updatebtn
             // 
-            this.updatebtn.AutoSize = true;
-            this.updatebtn.Location = new System.Drawing.Point(91, 13);
-            this.updatebtn.Margin = new System.Windows.Forms.Padding(5);
-            this.updatebtn.Name = "updatebtn";
-            this.updatebtn.Size = new System.Drawing.Size(75, 81);
-            this.updatebtn.TabIndex = 1;
-            this.updatebtn.Text = "Update";
-            this.updatebtn.UseVisualStyleBackColor = true;
-            this.updatebtn.Click += new System.EventHandler(this.updatebtn_Click);
+            updatebtn.AutoSize = true;
+            updatebtn.Location = new Point(91, 13);
+            updatebtn.Margin = new Padding(5);
+            updatebtn.Name = "updatebtn";
+            updatebtn.Size = new Size(75, 81);
+            updatebtn.TabIndex = 1;
+            updatebtn.Text = "Update";
+            updatebtn.UseVisualStyleBackColor = true;
+            updatebtn.Click += updatebtn_Click;
             // 
-            // button4
+            // btnAdd
             // 
-            this.button4.AutoSize = true;
-            this.button4.Location = new System.Drawing.Point(6, 13);
-            this.button4.Margin = new System.Windows.Forms.Padding(5);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(75, 81);
-            this.button4.TabIndex = 0;
-            this.button4.Text = "Add";
-            this.button4.UseVisualStyleBackColor = true;
+            btnAdd.AutoSize = true;
+            btnAdd.Location = new Point(6, 13);
+            btnAdd.Margin = new Padding(5);
+            btnAdd.Name = "btnAdd";
+            btnAdd.Size = new Size(75, 81);
+            btnAdd.TabIndex = 0;
+            btnAdd.Text = "Add";
+            btnAdd.UseVisualStyleBackColor = true;
+            btnAdd.Click += btnAdd_Click;
             // 
             // tableLayoutPanel2
             // 
-            this.tableLayoutPanel2.ColumnCount = 2;
-            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 40F));
-            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 60F));
-            this.tableLayoutPanel2.Controls.Add(this.label1, 0, 0);
-            this.tableLayoutPanel2.Controls.Add(this.label2, 0, 1);
-            this.tableLayoutPanel2.Controls.Add(this.label3, 0, 2);
-            this.tableLayoutPanel2.Controls.Add(this.label4, 0, 3);
-            this.tableLayoutPanel2.Controls.Add(this.label5, 0, 4);
-            this.tableLayoutPanel2.Controls.Add(this.label6, 0, 5);
-            this.tableLayoutPanel2.Controls.Add(this.label7, 0, 6);
-            this.tableLayoutPanel2.Controls.Add(this.txtHeroID, 1, 0);
-            this.tableLayoutPanel2.Controls.Add(this.txtPower, 1, 3);
-            this.tableLayoutPanel2.Controls.Add(this.txtAge, 1, 2);
-            this.tableLayoutPanel2.Controls.Add(this.txtScore, 1, 4);
-            this.tableLayoutPanel2.Controls.Add(this.txtName, 1, 1);
-            this.tableLayoutPanel2.Controls.Add(this.dataGridView2, 1, 5);
-            this.tableLayoutPanel2.Controls.Add(this.dataGridView3, 1, 6);
-            this.tableLayoutPanel2.Dock = System.Windows.Forms.DockStyle.Top;
-            this.tableLayoutPanel2.Location = new System.Drawing.Point(3, 21);
-            this.tableLayoutPanel2.Name = "tableLayoutPanel2";
-            this.tableLayoutPanel2.Padding = new System.Windows.Forms.Padding(10);
-            this.tableLayoutPanel2.RowCount = 7;
-            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 14.28571F));
-            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 14.28571F));
-            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 14.28571F));
-            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 14.28571F));
-            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 14.28571F));
-            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 14.28571F));
-            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 14.28571F));
-            this.tableLayoutPanel2.Size = new System.Drawing.Size(341, 429);
-            this.tableLayoutPanel2.TabIndex = 0;
+            tableLayoutPanel2.ColumnCount = 2;
+            tableLayoutPanel2.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 40F));
+            tableLayoutPanel2.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 60F));
+            tableLayoutPanel2.Controls.Add(label1, 0, 0);
+            tableLayoutPanel2.Controls.Add(label2, 0, 1);
+            tableLayoutPanel2.Controls.Add(label3, 0, 2);
+            tableLayoutPanel2.Controls.Add(label4, 0, 3);
+            tableLayoutPanel2.Controls.Add(label5, 0, 4);
+            tableLayoutPanel2.Controls.Add(label6, 0, 5);
+            tableLayoutPanel2.Controls.Add(label7, 0, 6);
+            tableLayoutPanel2.Controls.Add(txtHeroID, 1, 0);
+            tableLayoutPanel2.Controls.Add(txtPower, 1, 3);
+            tableLayoutPanel2.Controls.Add(txtAge, 1, 2);
+            tableLayoutPanel2.Controls.Add(txtScore, 1, 4);
+            tableLayoutPanel2.Controls.Add(txtName, 1, 1);
+            tableLayoutPanel2.Controls.Add(dataGridView2, 1, 5);
+            tableLayoutPanel2.Controls.Add(dataGridView3, 1, 6);
+            tableLayoutPanel2.Dock = DockStyle.Top;
+            tableLayoutPanel2.Location = new Point(3, 21);
+            tableLayoutPanel2.Name = "tableLayoutPanel2";
+            tableLayoutPanel2.Padding = new Padding(10);
+            tableLayoutPanel2.RowCount = 7;
+            tableLayoutPanel2.RowStyles.Add(new RowStyle(SizeType.Percent, 14.28571F));
+            tableLayoutPanel2.RowStyles.Add(new RowStyle(SizeType.Percent, 14.28571F));
+            tableLayoutPanel2.RowStyles.Add(new RowStyle(SizeType.Percent, 14.28571F));
+            tableLayoutPanel2.RowStyles.Add(new RowStyle(SizeType.Percent, 14.28571F));
+            tableLayoutPanel2.RowStyles.Add(new RowStyle(SizeType.Percent, 14.28571F));
+            tableLayoutPanel2.RowStyles.Add(new RowStyle(SizeType.Percent, 14.28571F));
+            tableLayoutPanel2.RowStyles.Add(new RowStyle(SizeType.Percent, 14.28571F));
+            tableLayoutPanel2.Size = new Size(341, 429);
+            tableLayoutPanel2.TabIndex = 0;
             // 
             // label1
             // 
-            this.label1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(13, 30);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(122, 17);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "Hero ID";
+            label1.Anchor = AnchorStyles.Left | AnchorStyles.Right;
+            label1.AutoSize = true;
+            label1.Location = new Point(13, 30);
+            label1.Name = "label1";
+            label1.Size = new Size(122, 17);
+            label1.TabIndex = 0;
+            label1.Text = "Hero ID";
             // 
             // label2
             // 
-            this.label2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(13, 88);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(122, 17);
-            this.label2.TabIndex = 1;
-            this.label2.Text = "Name ";
+            label2.Anchor = AnchorStyles.Left | AnchorStyles.Right;
+            label2.AutoSize = true;
+            label2.Location = new Point(13, 88);
+            label2.Name = "label2";
+            label2.Size = new Size(122, 17);
+            label2.TabIndex = 1;
+            label2.Text = "Name ";
             // 
             // label3
             // 
-            this.label3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(13, 146);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(122, 17);
-            this.label3.TabIndex = 2;
-            this.label3.Text = "Age";
+            label3.Anchor = AnchorStyles.Left | AnchorStyles.Right;
+            label3.AutoSize = true;
+            label3.Location = new Point(13, 146);
+            label3.Name = "label3";
+            label3.Size = new Size(122, 17);
+            label3.TabIndex = 2;
+            label3.Text = "Age";
             // 
             // label4
             // 
-            this.label4.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(13, 204);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(122, 17);
-            this.label4.TabIndex = 3;
-            this.label4.Text = "Power";
+            label4.Anchor = AnchorStyles.Left | AnchorStyles.Right;
+            label4.AutoSize = true;
+            label4.Location = new Point(13, 204);
+            label4.Name = "label4";
+            label4.Size = new Size(122, 17);
+            label4.TabIndex = 3;
+            label4.Text = "Power";
             // 
             // label5
             // 
-            this.label5.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(13, 262);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(122, 17);
-            this.label5.TabIndex = 4;
-            this.label5.Text = "Score";
+            label5.Anchor = AnchorStyles.Left | AnchorStyles.Right;
+            label5.AutoSize = true;
+            label5.Location = new Point(13, 262);
+            label5.Name = "label5";
+            label5.Size = new Size(122, 17);
+            label5.TabIndex = 4;
+            label5.Text = "Score";
             // 
             // label6
             // 
-            this.label6.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(13, 320);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(122, 17);
-            this.label6.TabIndex = 5;
-            this.label6.Text = "Rank";
+            label6.Anchor = AnchorStyles.Left | AnchorStyles.Right;
+            label6.AutoSize = true;
+            label6.Location = new Point(13, 320);
+            label6.Name = "label6";
+            label6.Size = new Size(122, 17);
+            label6.TabIndex = 5;
+            label6.Text = "Rank";
             // 
             // label7
             // 
-            this.label7.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(13, 380);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(122, 17);
-            this.label7.TabIndex = 6;
-            this.label7.Text = "Threat Level";
+            label7.Anchor = AnchorStyles.Left | AnchorStyles.Right;
+            label7.AutoSize = true;
+            label7.Location = new Point(13, 380);
+            label7.Name = "label7";
+            label7.Size = new Size(122, 17);
+            label7.TabIndex = 6;
+            label7.Text = "Threat Level";
             // 
             // txtHeroID
             // 
-            this.txtHeroID.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.txtHeroID.Location = new System.Drawing.Point(141, 26);
-            this.txtHeroID.MaxLength = 10;
-            this.txtHeroID.Name = "txtHeroID";
-            this.txtHeroID.Size = new System.Drawing.Size(187, 25);
-            this.txtHeroID.TabIndex = 0;
+            txtHeroID.Anchor = AnchorStyles.Left | AnchorStyles.Right;
+            txtHeroID.Location = new Point(141, 26);
+            txtHeroID.MaxLength = 10;
+            txtHeroID.Name = "txtHeroID";
+            txtHeroID.Size = new Size(187, 25);
+            txtHeroID.TabIndex = 0;
             // 
             // txtPower
             // 
-            this.txtPower.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.txtPower.Location = new System.Drawing.Point(141, 200);
-            this.txtPower.MaxLength = 50;
-            this.txtPower.Name = "txtPower";
-            this.txtPower.Size = new System.Drawing.Size(187, 25);
-            this.txtPower.TabIndex = 3;
+            txtPower.Anchor = AnchorStyles.Left | AnchorStyles.Right;
+            txtPower.Location = new Point(141, 200);
+            txtPower.MaxLength = 50;
+            txtPower.Name = "txtPower";
+            txtPower.Size = new Size(187, 25);
+            txtPower.TabIndex = 3;
             // 
             // txtAge
             // 
-            this.txtAge.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.txtAge.Location = new System.Drawing.Point(141, 142);
-            this.txtAge.Name = "txtAge";
-            this.txtAge.Size = new System.Drawing.Size(187, 25);
-            this.txtAge.TabIndex = 2;
+            txtAge.Anchor = AnchorStyles.Left | AnchorStyles.Right;
+            txtAge.Location = new Point(141, 142);
+            txtAge.Name = "txtAge";
+            txtAge.Size = new Size(187, 25);
+            txtAge.TabIndex = 2;
             // 
             // txtScore
             // 
-            this.txtScore.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.txtScore.Location = new System.Drawing.Point(141, 258);
-            this.txtScore.Name = "txtScore";
-            this.txtScore.Size = new System.Drawing.Size(187, 25);
-            this.txtScore.TabIndex = 4;
+            txtScore.Anchor = AnchorStyles.Left | AnchorStyles.Right;
+            txtScore.Location = new Point(141, 258);
+            txtScore.Name = "txtScore";
+            txtScore.Size = new Size(187, 25);
+            txtScore.TabIndex = 4;
             // 
             // txtName
             // 
-            this.txtName.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.txtName.Location = new System.Drawing.Point(141, 84);
-            this.txtName.MaxLength = 50;
-            this.txtName.Name = "txtName";
-            this.txtName.Size = new System.Drawing.Size(187, 25);
-            this.txtName.TabIndex = 1;
+            txtName.Anchor = AnchorStyles.Left | AnchorStyles.Right;
+            txtName.Location = new Point(141, 84);
+            txtName.MaxLength = 50;
+            txtName.Name = "txtName";
+            txtName.Size = new Size(187, 25);
+            txtName.TabIndex = 1;
             // 
             // dataGridView2
             // 
-            this.dataGridView2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView2.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.colRank});
-            this.dataGridView2.Location = new System.Drawing.Point(141, 303);
-            this.dataGridView2.Name = "dataGridView2";
-            this.dataGridView2.Size = new System.Drawing.Size(187, 48);
-            this.dataGridView2.TabIndex = 7;
+            dataGridView2.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dataGridView2.Columns.AddRange(new DataGridViewColumn[] { colRank });
+            dataGridView2.Location = new Point(141, 303);
+            dataGridView2.Name = "dataGridView2";
+            dataGridView2.Size = new Size(187, 48);
+            dataGridView2.TabIndex = 7;
             // 
             // colRank
             // 
-            this.colRank.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.colRank.HeaderText = "Rank";
-            this.colRank.Name = "colRank";
-            this.colRank.ReadOnly = true;
+            colRank.AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill;
+            colRank.HeaderText = "Rank";
+            colRank.Name = "colRank";
+            colRank.ReadOnly = true;
             // 
             // dataGridView3
             // 
-            this.dataGridView3.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView3.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.colThreatLevel});
-            this.dataGridView3.Location = new System.Drawing.Point(141, 361);
-            this.dataGridView3.Name = "dataGridView3";
-            this.dataGridView3.Size = new System.Drawing.Size(187, 49);
-            this.dataGridView3.TabIndex = 8;
+            dataGridView3.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dataGridView3.Columns.AddRange(new DataGridViewColumn[] { colThreatLevel });
+            dataGridView3.Location = new Point(141, 361);
+            dataGridView3.Name = "dataGridView3";
+            dataGridView3.Size = new Size(187, 49);
+            dataGridView3.TabIndex = 8;
             // 
             // colThreatLevel
             // 
-            this.colThreatLevel.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.colThreatLevel.HeaderText = "Threat Level";
-            this.colThreatLevel.Name = "colThreatLevel";
-            this.colThreatLevel.ReadOnly = true;
+            colThreatLevel.AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill;
+            colThreatLevel.HeaderText = "Threat Level";
+            colThreatLevel.Name = "colThreatLevel";
+            colThreatLevel.ReadOnly = true;
             // 
             // groupBox2
             // 
-            this.groupBox2.Controls.Add(this.tableLayoutPanel3);
-            this.groupBox2.Controls.Add(this.dataGridView1);
-            this.groupBox2.Controls.Add(this.dgvHero);
-            this.groupBox2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.groupBox2.Location = new System.Drawing.Point(356, 3);
-            this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Padding = new System.Windows.Forms.Padding(8);
-            this.groupBox2.Size = new System.Drawing.Size(525, 555);
-            this.groupBox2.TabIndex = 0;
-            this.groupBox2.TabStop = false;
-            this.groupBox2.Text = "Hero Details Display";
+            groupBox2.Controls.Add(tableLayoutPanel3);
+            groupBox2.Controls.Add(dataGridView1);
+            groupBox2.Controls.Add(dgvHero);
+            groupBox2.Dock = DockStyle.Fill;
+            groupBox2.Location = new Point(356, 3);
+            groupBox2.Name = "groupBox2";
+            groupBox2.Padding = new Padding(8);
+            groupBox2.Size = new Size(525, 555);
+            groupBox2.TabIndex = 0;
+            groupBox2.TabStop = false;
+            groupBox2.Text = "Hero Details Display";
             // 
             // tableLayoutPanel3
             // 
-            this.tableLayoutPanel3.ColumnCount = 3;
-            this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
-            this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
-            this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
-            this.tableLayoutPanel3.Controls.Add(this.searchbtn, 0, 0);
-            this.tableLayoutPanel3.Controls.Add(this.button6, 1, 0);
-            this.tableLayoutPanel3.Controls.Add(this.button7, 2, 0);
-            this.tableLayoutPanel3.Location = new System.Drawing.Point(12, 450);
-            this.tableLayoutPanel3.Name = "tableLayoutPanel3";
-            this.tableLayoutPanel3.RowCount = 1;
-            this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel3.Size = new System.Drawing.Size(505, 94);
-            this.tableLayoutPanel3.TabIndex = 2;
+            tableLayoutPanel3.ColumnCount = 3;
+            tableLayoutPanel3.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 33.33333F));
+            tableLayoutPanel3.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 33.33333F));
+            tableLayoutPanel3.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 33.33333F));
+            tableLayoutPanel3.Controls.Add(searchbtn, 0, 0);
+            tableLayoutPanel3.Controls.Add(btnRefresh, 1, 0);
+            tableLayoutPanel3.Controls.Add(button7, 2, 0);
+            tableLayoutPanel3.Location = new Point(12, 450);
+            tableLayoutPanel3.Name = "tableLayoutPanel3";
+            tableLayoutPanel3.RowCount = 1;
+            tableLayoutPanel3.RowStyles.Add(new RowStyle(SizeType.Percent, 100F));
+            tableLayoutPanel3.Size = new Size(505, 94);
+            tableLayoutPanel3.TabIndex = 2;
             // 
             // searchbtn
             // 
-            this.searchbtn.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.searchbtn.Location = new System.Drawing.Point(3, 3);
-            this.searchbtn.Name = "searchbtn";
-            this.searchbtn.Size = new System.Drawing.Size(162, 88);
-            this.searchbtn.TabIndex = 0;
-            this.searchbtn.Text = "Search";
-            this.searchbtn.UseVisualStyleBackColor = true;
-            this.searchbtn.Click += new System.EventHandler(this.searchbtn_Click);
+            searchbtn.Dock = DockStyle.Fill;
+            searchbtn.Location = new Point(3, 3);
+            searchbtn.Name = "searchbtn";
+            searchbtn.Size = new Size(162, 88);
+            searchbtn.TabIndex = 0;
+            searchbtn.Text = "Search";
+            searchbtn.UseVisualStyleBackColor = true;
+            searchbtn.Click += searchbtn_Click;
             // 
-            // button6
+            // btnRefresh
             // 
-            this.button6.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.button6.Location = new System.Drawing.Point(171, 3);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(162, 88);
-            this.button6.TabIndex = 1;
-            this.button6.Text = "Refresh";
-            this.button6.UseVisualStyleBackColor = true;
+            btnRefresh.Dock = DockStyle.Fill;
+            btnRefresh.Location = new Point(171, 3);
+            btnRefresh.Name = "btnRefresh";
+            btnRefresh.Size = new Size(162, 88);
+            btnRefresh.TabIndex = 1;
+            btnRefresh.Text = "Refresh";
+            btnRefresh.UseVisualStyleBackColor = true;
+            btnRefresh.Click += button6_Click;
             // 
             // button7
             // 
-            this.button7.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.button7.Location = new System.Drawing.Point(339, 3);
-            this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(163, 88);
-            this.button7.TabIndex = 2;
-            this.button7.Text = "Summary";
-            this.button7.UseVisualStyleBackColor = true;
+            button7.Dock = DockStyle.Fill;
+            button7.Location = new Point(339, 3);
+            button7.Name = "button7";
+            button7.Size = new Size(163, 88);
+            button7.TabIndex = 2;
+            button7.Text = "Summary";
+            button7.UseVisualStyleBackColor = true;
             // 
             // dataGridView1
             // 
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.colTotalHeros,
-            this.colAveAge,
-            this.colAveScore});
-            this.dataGridView1.Dock = System.Windows.Forms.DockStyle.Top;
-            this.dataGridView1.Location = new System.Drawing.Point(8, 389);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(509, 56);
-            this.dataGridView1.TabIndex = 1;
+            dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dataGridView1.Columns.AddRange(new DataGridViewColumn[] { colTotalHeros, colAveAge, colAveScore });
+            dataGridView1.Dock = DockStyle.Top;
+            dataGridView1.Location = new Point(8, 389);
+            dataGridView1.Name = "dataGridView1";
+            dataGridView1.Size = new Size(509, 56);
+            dataGridView1.TabIndex = 1;
             // 
             // colTotalHeros
             // 
-            this.colTotalHeros.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.colTotalHeros.FillWeight = 33F;
-            this.colTotalHeros.HeaderText = "Total Heros";
-            this.colTotalHeros.Name = "colTotalHeros";
+            colTotalHeros.AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill;
+            colTotalHeros.FillWeight = 33F;
+            colTotalHeros.HeaderText = "Total Heros";
+            colTotalHeros.Name = "colTotalHeros";
             // 
             // colAveAge
             // 
-            this.colAveAge.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.colAveAge.FillWeight = 33F;
-            this.colAveAge.HeaderText = "Average Age";
-            this.colAveAge.Name = "colAveAge";
+            colAveAge.AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill;
+            colAveAge.FillWeight = 33F;
+            colAveAge.HeaderText = "Average Age";
+            colAveAge.Name = "colAveAge";
             // 
             // colAveScore
             // 
-            this.colAveScore.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.colAveScore.FillWeight = 34F;
-            this.colAveScore.HeaderText = "Average Score";
-            this.colAveScore.Name = "colAveScore";
+            colAveScore.AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill;
+            colAveScore.FillWeight = 34F;
+            colAveScore.HeaderText = "Average Score";
+            colAveScore.Name = "colAveScore";
             // 
             // dgvHero
             // 
-            this.dgvHero.AllowUserToAddRows = false;
-            this.dgvHero.AllowUserToDeleteRows = false;
-            this.dgvHero.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvHero.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.colID,
-            this.colName,
-            this.colAge,
-            this.colPower,
-            this.colScore,
-            this.colThreat});
-            this.dgvHero.Dock = System.Windows.Forms.DockStyle.Top;
-            this.dgvHero.Location = new System.Drawing.Point(8, 26);
-            this.dgvHero.Name = "dgvHero";
-            this.dgvHero.ReadOnly = true;
-            this.dgvHero.Size = new System.Drawing.Size(509, 363);
-            this.dgvHero.TabIndex = 0;
-            this.dgvHero.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvHero_CellContentClick);
+            dgvHero.AllowUserToAddRows = false;
+            dgvHero.AllowUserToDeleteRows = false;
+            dgvHero.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dgvHero.Columns.AddRange(new DataGridViewColumn[] { colID, colName, colAge, colPower, colScore, colThreat });
+            dgvHero.Dock = DockStyle.Top;
+            dgvHero.Location = new Point(8, 26);
+            dgvHero.Name = "dgvHero";
+            dgvHero.ReadOnly = true;
+            dgvHero.Size = new Size(509, 363);
+            dgvHero.TabIndex = 0;
+            dgvHero.CellContentClick += dgvHero_CellContentClick;
             // 
             // colID
             // 
-            this.colID.FillWeight = 12F;
-            this.colID.HeaderText = "ID";
-            this.colID.Name = "colID";
-            this.colID.ReadOnly = true;
+            colID.FillWeight = 12F;
+            colID.HeaderText = "ID";
+            colID.Name = "colID";
+            colID.ReadOnly = true;
             // 
             // colName
             // 
-            this.colName.FillWeight = 18F;
-            this.colName.HeaderText = "Name";
-            this.colName.Name = "colName";
-            this.colName.ReadOnly = true;
+            colName.FillWeight = 18F;
+            colName.HeaderText = "Name";
+            colName.Name = "colName";
+            colName.ReadOnly = true;
             // 
             // colAge
             // 
-            this.colAge.FillWeight = 10F;
-            this.colAge.HeaderText = "Age";
-            this.colAge.Name = "colAge";
-            this.colAge.ReadOnly = true;
+            colAge.FillWeight = 10F;
+            colAge.HeaderText = "Age";
+            colAge.Name = "colAge";
+            colAge.ReadOnly = true;
             // 
             // colPower
             // 
-            this.colPower.FillWeight = 20F;
-            this.colPower.HeaderText = "Power";
-            this.colPower.Name = "colPower";
-            this.colPower.ReadOnly = true;
+            colPower.FillWeight = 20F;
+            colPower.HeaderText = "Power";
+            colPower.Name = "colPower";
+            colPower.ReadOnly = true;
             // 
             // colScore
             // 
-            this.colScore.FillWeight = 10F;
-            this.colScore.HeaderText = "Score";
-            this.colScore.Name = "colScore";
-            this.colScore.ReadOnly = true;
+            colScore.FillWeight = 10F;
+            colScore.HeaderText = "Score";
+            colScore.Name = "colScore";
+            colScore.ReadOnly = true;
             // 
             // colThreat
             // 
-            this.colThreat.FillWeight = 20F;
-            this.colThreat.HeaderText = "Threat";
-            this.colThreat.Name = "colThreat";
-            this.colThreat.ReadOnly = true;
+            colThreat.FillWeight = 20F;
+            colThreat.HeaderText = "Threat";
+            colThreat.Name = "colThreat";
+            colThreat.ReadOnly = true;
             // 
             // contextMenuStrip1
             // 
-            this.contextMenuStrip1.Name = "contextMenuStrip1";
-            this.contextMenuStrip1.Size = new System.Drawing.Size(61, 4);
+            contextMenuStrip1.Name = "contextMenuStrip1";
+            contextMenuStrip1.Size = new Size(61, 4);
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 17F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(884, 561);
-            this.Controls.Add(this.tableLayoutPanel1);
-            this.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Margin = new System.Windows.Forms.Padding(4);
-            this.MinimumSize = new System.Drawing.Size(900, 600);
-            this.Name = "Form1";
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Superhero Manager";
-            this.Load += new System.EventHandler(this.Form1_Load);
-            this.tableLayoutPanel1.ResumeLayout(false);
-            this.groupBox1.ResumeLayout(false);
-            this.groupBox1.PerformLayout();
-            this.flowLayoutPanel1.ResumeLayout(false);
-            this.flowLayoutPanel1.PerformLayout();
-            this.tableLayoutPanel2.ResumeLayout(false);
-            this.tableLayoutPanel2.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.txtAge)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.txtScore)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView3)).EndInit();
-            this.groupBox2.ResumeLayout(false);
-            this.tableLayoutPanel3.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dgvHero)).EndInit();
-            this.ResumeLayout(false);
+            AutoScaleDimensions = new SizeF(7F, 17F);
+            AutoScaleMode = AutoScaleMode.Font;
+            ClientSize = new Size(884, 561);
+            Controls.Add(tableLayoutPanel1);
+            Font = new Font("Segoe UI", 9.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            Margin = new Padding(4);
+            MinimumSize = new Size(900, 550);
+            Name = "Form1";
+            StartPosition = FormStartPosition.CenterScreen;
+            Text = "Superhero Manager";
+            Load += Form1_Load;
+            tableLayoutPanel1.ResumeLayout(false);
+            groupBox1.ResumeLayout(false);
+            groupBox1.PerformLayout();
+            flowLayoutPanel1.ResumeLayout(false);
+            flowLayoutPanel1.PerformLayout();
+            tableLayoutPanel2.ResumeLayout(false);
+            tableLayoutPanel2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)txtAge).EndInit();
+            ((System.ComponentModel.ISupportInitialize)txtScore).EndInit();
+            ((System.ComponentModel.ISupportInitialize)dataGridView2).EndInit();
+            ((System.ComponentModel.ISupportInitialize)dataGridView3).EndInit();
+            groupBox2.ResumeLayout(false);
+            tableLayoutPanel3.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
+            ((System.ComponentModel.ISupportInitialize)dgvHero).EndInit();
+            ResumeLayout(false);
 
         }
 
@@ -573,13 +564,13 @@
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button deletebtn;
         private System.Windows.Forms.Button updatebtn;
-        private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.Button btnAdd;
         private System.Windows.Forms.GroupBox groupBox2;
         private System.Windows.Forms.DataGridView dgvHero;
         private System.Windows.Forms.DataGridView dataGridView1;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel3;
         private System.Windows.Forms.Button searchbtn;
-        private System.Windows.Forms.Button button6;
+        private System.Windows.Forms.Button btnRefresh;
         private System.Windows.Forms.Button button7;
         private System.Windows.Forms.DataGridViewTextBoxColumn colID;
         private System.Windows.Forms.DataGridViewTextBoxColumn colName;

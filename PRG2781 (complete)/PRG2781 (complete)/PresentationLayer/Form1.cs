@@ -15,8 +15,9 @@ namespace WindowsFormsApp1_PRG282_Project
 
         private void Form1_Load(object sender, EventArgs e)
         {
-
+            LoadData();
         }
+
 
         private void updatebtn_Click(object sender, EventArgs e)
         {
@@ -112,6 +113,30 @@ namespace WindowsFormsApp1_PRG282_Project
                 string[] parts = line.Split(',');
                 dgvHero.Rows.Add(parts);
             }
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            LoadData();
+        }
+
+        private void btnAdd_Click(object sender, EventArgs e)
+        {
+            // Example: get data from textboxes in your form
+            string id = txtHeroID.Text;
+            string name = txtName.Text;
+            int age = int.TryParse(txtAge.Text, out int a) ? a : 0;
+            string power = txtPower.Text;
+            int score = int.TryParse(txtScore.Text, out int s) ? s : 0;
+            
+
+            // Add hero
+            Filehandler.AddHero(id, name, age, power, score);
+
+            // Refresh DataGridView
+            LoadData();
+
+            MessageBox.Show("Hero added successfully!");
         }
     }
 }

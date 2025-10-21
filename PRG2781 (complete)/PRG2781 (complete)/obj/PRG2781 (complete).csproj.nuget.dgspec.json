@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\601781\\source\\repos\\PRG2781 (complete)\\PRG2781 (complete)\\PRG2781 (complete).csproj": {}
+    "C:\\Users\\600192\\source\\repos\\PRG282_Project-0-\\PRG2781 (complete)\\PRG2781 (complete)\\PRG2781 (complete).csproj": {}
   },
   "projects": {
-    "C:\\Users\\601781\\source\\repos\\PRG2781 (complete)\\PRG2781 (complete)\\PRG2781 (complete).csproj": {
+    "C:\\Users\\600192\\source\\repos\\PRG282_Project-0-\\PRG2781 (complete)\\PRG2781 (complete)\\PRG2781 (complete).csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\601781\\source\\repos\\PRG2781 (complete)\\PRG2781 (complete)\\PRG2781 (complete).csproj",
+        "projectUniqueName": "C:\\Users\\600192\\source\\repos\\PRG282_Project-0-\\PRG2781 (complete)\\PRG2781 (complete)\\PRG2781 (complete).csproj",
         "projectName": "PRG2781 (complete)",
-        "projectPath": "C:\\Users\\601781\\source\\repos\\PRG2781 (complete)\\PRG2781 (complete)\\PRG2781 (complete).csproj",
-        "packagesPath": "C:\\Users\\601781\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\601781\\source\\repos\\PRG2781 (complete)\\PRG2781 (complete)\\obj\\",
+        "projectPath": "C:\\Users\\600192\\source\\repos\\PRG282_Project-0-\\PRG2781 (complete)\\PRG2781 (complete)\\PRG2781 (complete).csproj",
+        "packagesPath": "C:\\Users\\600192\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\600192\\source\\repos\\PRG282_Project-0-\\PRG2781 (complete)\\PRG2781 (complete)\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\601781\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\600192\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -68,7 +68,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.306/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.305/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
