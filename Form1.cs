@@ -63,7 +63,7 @@ namespace WindowsFormsApp1_PRG282_Project
         {
             try
             {
-                if (!File.Exists("superheros.txt"))
+                if (!File.Exists("superheroes.txt"))
                 {
                     MessageBox.Show("File does not exist. Please add heroes first", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                     return;
