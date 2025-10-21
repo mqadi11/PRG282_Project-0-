@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "PRG2781 (complete)/1.0.0": {
+        "runtime": {
+          "PRG2781 (complete).dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "PRG2781 (complete)/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
