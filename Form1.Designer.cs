@@ -98,7 +98,7 @@
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 561F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 561F));
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(884, 561);
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(1410, 561);
             this.tableLayoutPanel1.TabIndex = 0;
             // 
             // groupBox1
@@ -108,7 +108,7 @@
             this.groupBox1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.groupBox1.Location = new System.Drawing.Point(3, 3);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(347, 555);
+            this.groupBox1.Size = new System.Drawing.Size(558, 555);
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Hero Details Capture";
@@ -123,17 +123,17 @@
             this.flowLayoutPanel1.Controls.Add(this.button4);
             this.flowLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.flowLayoutPanel1.FlowDirection = System.Windows.Forms.FlowDirection.RightToLeft;
-            this.flowLayoutPanel1.Location = new System.Drawing.Point(3, 450);
+            this.flowLayoutPanel1.Location = new System.Drawing.Point(3, 454);
             this.flowLayoutPanel1.Name = "flowLayoutPanel1";
             this.flowLayoutPanel1.Padding = new System.Windows.Forms.Padding(0, 8, 0, 0);
-            this.flowLayoutPanel1.Size = new System.Drawing.Size(341, 102);
+            this.flowLayoutPanel1.Size = new System.Drawing.Size(552, 98);
             this.flowLayoutPanel1.TabIndex = 1;
             this.flowLayoutPanel1.WrapContents = false;
             // 
             // button1
             // 
             this.button1.AutoSize = true;
-            this.button1.Location = new System.Drawing.Point(261, 13);
+            this.button1.Location = new System.Drawing.Point(472, 13);
             this.button1.Margin = new System.Windows.Forms.Padding(5);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 81);
@@ -144,7 +144,7 @@
             // button2
             // 
             this.button2.AutoSize = true;
-            this.button2.Location = new System.Drawing.Point(176, 13);
+            this.button2.Location = new System.Drawing.Point(387, 13);
             this.button2.Margin = new System.Windows.Forms.Padding(5);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(75, 81);
@@ -155,10 +155,10 @@
             // button3
             // 
             this.button3.AutoSize = true;
-            this.button3.Location = new System.Drawing.Point(91, 13);
+            this.button3.Location = new System.Drawing.Point(301, 13);
             this.button3.Margin = new System.Windows.Forms.Padding(5);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(75, 81);
+            this.button3.Size = new System.Drawing.Size(76, 81);
             this.button3.TabIndex = 1;
             this.button3.Text = "Update";
             this.button3.UseVisualStyleBackColor = true;
@@ -167,7 +167,7 @@
             // button4
             // 
             this.button4.AutoSize = true;
-            this.button4.Location = new System.Drawing.Point(6, 13);
+            this.button4.Location = new System.Drawing.Point(216, 13);
             this.button4.Margin = new System.Windows.Forms.Padding(5);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(75, 81);
@@ -196,7 +196,7 @@
             this.tableLayoutPanel2.Controls.Add(this.dataGridView2, 1, 5);
             this.tableLayoutPanel2.Controls.Add(this.dataGridView3, 1, 6);
             this.tableLayoutPanel2.Dock = System.Windows.Forms.DockStyle.Top;
-            this.tableLayoutPanel2.Location = new System.Drawing.Point(3, 21);
+            this.tableLayoutPanel2.Location = new System.Drawing.Point(3, 25);
             this.tableLayoutPanel2.Name = "tableLayoutPanel2";
             this.tableLayoutPanel2.Padding = new System.Windows.Forms.Padding(10);
             this.tableLayoutPanel2.RowCount = 7;
@@ -207,16 +207,16 @@
             this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 14.28571F));
             this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 14.28571F));
             this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 14.28571F));
-            this.tableLayoutPanel2.Size = new System.Drawing.Size(341, 429);
+            this.tableLayoutPanel2.Size = new System.Drawing.Size(552, 429);
             this.tableLayoutPanel2.TabIndex = 0;
             // 
             // label1
             // 
             this.label1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(13, 30);
+            this.label1.Location = new System.Drawing.Point(13, 27);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(122, 17);
+            this.label1.Size = new System.Drawing.Size(206, 23);
             this.label1.TabIndex = 0;
             this.label1.Text = "Hero ID";
             // 
@@ -224,9 +224,9 @@
             // 
             this.label2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(13, 88);
+            this.label2.Location = new System.Drawing.Point(13, 85);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(122, 17);
+            this.label2.Size = new System.Drawing.Size(206, 23);
             this.label2.TabIndex = 1;
             this.label2.Text = "Name ";
             // 
@@ -234,9 +234,9 @@
             // 
             this.label3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(13, 146);
+            this.label3.Location = new System.Drawing.Point(13, 143);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(122, 17);
+            this.label3.Size = new System.Drawing.Size(206, 23);
             this.label3.TabIndex = 2;
             this.label3.Text = "Age";
             // 
@@ -244,9 +244,9 @@
             // 
             this.label4.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(13, 204);
+            this.label4.Location = new System.Drawing.Point(13, 201);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(122, 17);
+            this.label4.Size = new System.Drawing.Size(206, 23);
             this.label4.TabIndex = 3;
             this.label4.Text = "Power";
             // 
@@ -254,9 +254,9 @@
             // 
             this.label5.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(13, 262);
+            this.label5.Location = new System.Drawing.Point(13, 259);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(122, 17);
+            this.label5.Size = new System.Drawing.Size(206, 23);
             this.label5.TabIndex = 4;
             this.label5.Text = "Score";
             // 
@@ -264,9 +264,9 @@
             // 
             this.label6.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(13, 320);
+            this.label6.Location = new System.Drawing.Point(13, 317);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(122, 17);
+            this.label6.Size = new System.Drawing.Size(206, 23);
             this.label6.TabIndex = 5;
             this.label6.Text = "Rank";
             // 
@@ -274,53 +274,53 @@
             // 
             this.label7.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(13, 380);
+            this.label7.Location = new System.Drawing.Point(13, 377);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(122, 17);
+            this.label7.Size = new System.Drawing.Size(206, 23);
             this.label7.TabIndex = 6;
             this.label7.Text = "Threat Level";
             // 
             // textBox1
             // 
             this.textBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.textBox1.Location = new System.Drawing.Point(141, 26);
+            this.textBox1.Location = new System.Drawing.Point(225, 24);
             this.textBox1.MaxLength = 10;
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(187, 25);
+            this.textBox1.Size = new System.Drawing.Size(314, 29);
             this.textBox1.TabIndex = 0;
             // 
             // textBox4
             // 
             this.textBox4.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.textBox4.Location = new System.Drawing.Point(141, 200);
+            this.textBox4.Location = new System.Drawing.Point(225, 198);
             this.textBox4.MaxLength = 50;
             this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(187, 25);
+            this.textBox4.Size = new System.Drawing.Size(314, 29);
             this.textBox4.TabIndex = 3;
             // 
             // numericUpDown1
             // 
             this.numericUpDown1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.numericUpDown1.Location = new System.Drawing.Point(141, 142);
+            this.numericUpDown1.Location = new System.Drawing.Point(225, 140);
             this.numericUpDown1.Name = "numericUpDown1";
-            this.numericUpDown1.Size = new System.Drawing.Size(187, 25);
+            this.numericUpDown1.Size = new System.Drawing.Size(314, 29);
             this.numericUpDown1.TabIndex = 2;
             // 
             // numericUpDown2
             // 
             this.numericUpDown2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.numericUpDown2.Location = new System.Drawing.Point(141, 258);
+            this.numericUpDown2.Location = new System.Drawing.Point(225, 256);
             this.numericUpDown2.Name = "numericUpDown2";
-            this.numericUpDown2.Size = new System.Drawing.Size(187, 25);
+            this.numericUpDown2.Size = new System.Drawing.Size(314, 29);
             this.numericUpDown2.TabIndex = 4;
             // 
             // textBox2
             // 
             this.textBox2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.textBox2.Location = new System.Drawing.Point(141, 84);
+            this.textBox2.Location = new System.Drawing.Point(225, 82);
             this.textBox2.MaxLength = 50;
             this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(187, 25);
+            this.textBox2.Size = new System.Drawing.Size(314, 29);
             this.textBox2.TabIndex = 1;
             // 
             // dataGridView2
@@ -328,8 +328,9 @@
             this.dataGridView2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView2.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.colRank});
-            this.dataGridView2.Location = new System.Drawing.Point(141, 303);
+            this.dataGridView2.Location = new System.Drawing.Point(225, 303);
             this.dataGridView2.Name = "dataGridView2";
+            this.dataGridView2.RowHeadersWidth = 51;
             this.dataGridView2.Size = new System.Drawing.Size(187, 48);
             this.dataGridView2.TabIndex = 7;
             // 
@@ -337,6 +338,7 @@
             // 
             this.colRank.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
             this.colRank.HeaderText = "Rank";
+            this.colRank.MinimumWidth = 6;
             this.colRank.Name = "colRank";
             this.colRank.ReadOnly = true;
             // 
@@ -345,8 +347,9 @@
             this.dataGridView3.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView3.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.colThreatLevel});
-            this.dataGridView3.Location = new System.Drawing.Point(141, 361);
+            this.dataGridView3.Location = new System.Drawing.Point(225, 361);
             this.dataGridView3.Name = "dataGridView3";
+            this.dataGridView3.RowHeadersWidth = 51;
             this.dataGridView3.Size = new System.Drawing.Size(187, 49);
             this.dataGridView3.TabIndex = 8;
             // 
@@ -354,6 +357,7 @@
             // 
             this.colThreatLevel.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
             this.colThreatLevel.HeaderText = "Threat Level";
+            this.colThreatLevel.MinimumWidth = 6;
             this.colThreatLevel.Name = "colThreatLevel";
             this.colThreatLevel.ReadOnly = true;
             // 
@@ -363,10 +367,10 @@
             this.groupBox2.Controls.Add(this.dataGridView1);
             this.groupBox2.Controls.Add(this.dgvHero);
             this.groupBox2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.groupBox2.Location = new System.Drawing.Point(356, 3);
+            this.groupBox2.Location = new System.Drawing.Point(567, 3);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.Padding = new System.Windows.Forms.Padding(8);
-            this.groupBox2.Size = new System.Drawing.Size(525, 555);
+            this.groupBox2.Size = new System.Drawing.Size(840, 555);
             this.groupBox2.TabIndex = 0;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Hero Details Display";
@@ -419,6 +423,7 @@
             this.button7.TabIndex = 2;
             this.button7.Text = "Summary";
             this.button7.UseVisualStyleBackColor = true;
+            this.button7.Click += new System.EventHandler(this.button7_Click);
             // 
             // dataGridView1
             // 
@@ -428,9 +433,10 @@
             this.colAveAge,
             this.colAveScore});
             this.dataGridView1.Dock = System.Windows.Forms.DockStyle.Top;
-            this.dataGridView1.Location = new System.Drawing.Point(8, 389);
+            this.dataGridView1.Location = new System.Drawing.Point(8, 393);
             this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(509, 56);
+            this.dataGridView1.RowHeadersWidth = 51;
+            this.dataGridView1.Size = new System.Drawing.Size(824, 56);
             this.dataGridView1.TabIndex = 1;
             // 
             // colTotalHeros
@@ -438,6 +444,7 @@
             this.colTotalHeros.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
             this.colTotalHeros.FillWeight = 33F;
             this.colTotalHeros.HeaderText = "Total Heros";
+            this.colTotalHeros.MinimumWidth = 6;
             this.colTotalHeros.Name = "colTotalHeros";
             // 
             // colAveAge
@@ -445,6 +452,7 @@
             this.colAveAge.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
             this.colAveAge.FillWeight = 33F;
             this.colAveAge.HeaderText = "Average Age";
+            this.colAveAge.MinimumWidth = 6;
             this.colAveAge.Name = "colAveAge";
             // 
             // colAveScore
@@ -452,6 +460,7 @@
             this.colAveScore.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
             this.colAveScore.FillWeight = 34F;
             this.colAveScore.HeaderText = "Average Score";
+            this.colAveScore.MinimumWidth = 6;
             this.colAveScore.Name = "colAveScore";
             // 
             // dgvHero
@@ -466,64 +475,78 @@
             this.colScore,
             this.colThreat});
             this.dgvHero.Dock = System.Windows.Forms.DockStyle.Top;
-            this.dgvHero.Location = new System.Drawing.Point(8, 26);
+            this.dgvHero.Location = new System.Drawing.Point(8, 30);
             this.dgvHero.Name = "dgvHero";
             this.dgvHero.ReadOnly = true;
-            this.dgvHero.Size = new System.Drawing.Size(509, 363);
+            this.dgvHero.RowHeadersWidth = 51;
+            this.dgvHero.Size = new System.Drawing.Size(824, 363);
             this.dgvHero.TabIndex = 0;
             // 
             // colID
             // 
             this.colID.FillWeight = 12F;
             this.colID.HeaderText = "ID";
+            this.colID.MinimumWidth = 6;
             this.colID.Name = "colID";
             this.colID.ReadOnly = true;
+            this.colID.Width = 125;
             // 
             // colName
             // 
             this.colName.FillWeight = 18F;
             this.colName.HeaderText = "Name";
+            this.colName.MinimumWidth = 6;
             this.colName.Name = "colName";
             this.colName.ReadOnly = true;
+            this.colName.Width = 125;
             // 
             // colAge
             // 
             this.colAge.FillWeight = 10F;
             this.colAge.HeaderText = "Age";
+            this.colAge.MinimumWidth = 6;
             this.colAge.Name = "colAge";
             this.colAge.ReadOnly = true;
+            this.colAge.Width = 125;
             // 
             // colPower
             // 
             this.colPower.FillWeight = 20F;
             this.colPower.HeaderText = "Power";
+            this.colPower.MinimumWidth = 6;
             this.colPower.Name = "colPower";
             this.colPower.ReadOnly = true;
+            this.colPower.Width = 125;
             // 
             // colScore
             // 
             this.colScore.FillWeight = 10F;
             this.colScore.HeaderText = "Score";
+            this.colScore.MinimumWidth = 6;
             this.colScore.Name = "colScore";
             this.colScore.ReadOnly = true;
+            this.colScore.Width = 125;
             // 
             // colThreat
             // 
             this.colThreat.FillWeight = 20F;
             this.colThreat.HeaderText = "Threat";
+            this.colThreat.MinimumWidth = 6;
             this.colThreat.Name = "colThreat";
             this.colThreat.ReadOnly = true;
+            this.colThreat.Width = 125;
             // 
             // contextMenuStrip1
             // 
+            this.contextMenuStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.contextMenuStrip1.Name = "contextMenuStrip1";
             this.contextMenuStrip1.Size = new System.Drawing.Size(61, 4);
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 17F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 21F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(884, 561);
+            this.ClientSize = new System.Drawing.Size(1410, 561);
             this.Controls.Add(this.tableLayoutPanel1);
             this.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Margin = new System.Windows.Forms.Padding(4);

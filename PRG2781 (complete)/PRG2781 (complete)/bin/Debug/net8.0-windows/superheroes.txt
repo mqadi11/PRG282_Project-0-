@@ -2,3 +2,4 @@ H005,ShadowStep,21,Invisibility,83,S-Rank,Finals Week
 H006,ThunderBolt,18,Electric Shock,67,A-Rank,Midterm Madness
 H007,FrostByte,20,Cryokinesis,72,A-Rank,Midterm Madness
 H008,Spiderman,19,Web shooting,80,A-Rank,Midterm Madness
+H009,Superman,25,Super Strength,89,S-Rank,Finals Week

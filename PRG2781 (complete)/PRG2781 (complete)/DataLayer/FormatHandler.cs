@@ -33,7 +33,8 @@ namespace WindowsFormsApp1_PRG282_Project.DataLayer
                     ));
                 }
             }
-                return heroes;
+            return heroes;
         }
     }
 }
+

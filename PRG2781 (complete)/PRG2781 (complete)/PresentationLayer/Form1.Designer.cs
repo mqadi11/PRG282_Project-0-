@@ -20,6 +20,11 @@
             base.Dispose(disposing);
         }
 
+        private System.ComponentModel.IContainer GetComponents()
+        {
+            return components;
+        }
+
         #region Windows Form Designer generated code
 
         /// <summary>

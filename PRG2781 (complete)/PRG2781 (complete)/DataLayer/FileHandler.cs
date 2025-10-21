@@ -87,22 +87,22 @@ namespace WindowsFormsApp1_PRG282_Project.DataLayer
 
             return false;
         }
-        // Add a new hero to the file
         public static void AddHero(string id, string name, int age, string power, int score)
         {
-            // First, add a placeholder line for the hero if it doesn't exist yet
+            // Add a placeholder line for the hero if it doesn't exist yet
             var lines = Filehandler.ReadAllHeroes();
 
             bool heroExists = lines.Any(line => line.Split(',')[0] == id);
             if (!heroExists)
             {
-                // Add basic info; rank and threat will be updated via Logic.UpdateHero
+                // Add basic info
+                // rank and threat will be updated via Logic.UpdateHero
                 string placeholderLine = $"{id},{name},{age},{power},{score},,";
                 lines.Add(placeholderLine);
                 Filehandler.WriteAllHeroes(lines);
             }
 
-            // Now call Logic.UpdateHero to calculate rank/threat and update the file
+            // Call Logic.UpdateHero to calculate rank/threat and update the file
             Logic.UpdateHero(id, name, age, power, score);
         }
     }
