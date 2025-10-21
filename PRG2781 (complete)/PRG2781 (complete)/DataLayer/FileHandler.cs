@@ -11,9 +11,10 @@ namespace WindowsFormsApp1_PRG282_Project.DataLayer
     internal class Filehandler
     {
         public Filehandler() { }
+        // Path to the text file in the program's running directory
         private static string filePath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "superheroes.txt");
 
-
+        // Reads all heroes from the file
         public static List<string> ReadAllHeroes()
         {
             if (!File.Exists(filePath))
@@ -21,7 +22,7 @@ namespace WindowsFormsApp1_PRG282_Project.DataLayer
 
             return File.ReadAllLines(filePath).ToList();
         }
-
+        // Writes all hero data to the file
         public static void WriteAllHeroes(List<string> heroes)
         {
             File.WriteAllLines(filePath, heroes);
@@ -107,3 +108,4 @@ namespace WindowsFormsApp1_PRG282_Project.DataLayer
         }
     }
 }
+
