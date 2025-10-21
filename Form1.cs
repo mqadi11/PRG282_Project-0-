@@ -103,16 +103,18 @@ namespace WindowsFormsApp1_PRG282_Project
                 }
                 double averageAge = totalHeroes > 0 ? (double)totalAge / totalHeroes : 0;
                 double averageScore = totalHeroes > 0 ? (double)totalScore / totalHeroes : 0;
-
+                
+          dataGridView2.Columns.Clear();
+          dataGridView2.Rows.Clear();
+          
                 //Display results on the form
-                textBox2.Text = totalHeroes.ToString();
-                numericUpDown1.Text = averageAge.ToString("F2");
-                textBox4.Text = averageScore.ToString("F2");
-                dataGridView2.Text = sRank.ToString();
-                dataGridView2.Text = aRank.ToString();
-                dataGridView2.Text = bRank.ToString();
-                dataGridView2.Text = cRank.ToString();
-
+                dataGridView2.Columns.Add("Total Heros", totalHeroes);
+                dataGridView2.Columns.Add("Average Age" , averageAge.ToString("F2"));
+                dataGridView2.Columns.Add("Average Score" averageScore.ToString("F2"));
+                dataGridView2.Columns.Add("S-Rank Heros" ,sRank);
+                dataGridView2.Columns.Add("A-Rank Heros" ,aRank);
+                dataGridView2.Columns.Add("B-Rank Heros" ,bRank);
+                dataGridView2.Columns.Add("C-Rank Heros" ,cRank);
 
 
                 //Save to summary.txt
